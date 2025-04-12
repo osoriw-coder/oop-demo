@@ -35,7 +35,7 @@ public class VolatileExample {
 		// Hilo que cambia la bandera a true después de un segundo
 		Thread escritor = new Thread(() -> {
 			try {
-				Thread.sleep(5000); // Espera 1 segundo
+				Thread.sleep(1000); // Espera 1 segundo
 			} catch (InterruptedException e) {
 				Thread.currentThread().interrupt();
 			}
