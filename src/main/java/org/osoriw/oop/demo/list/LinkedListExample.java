@@ -9,13 +9,13 @@ public class LinkedListExample {
 		LinkedList<String> lista = new LinkedList<>();
 
 		// Agregar elementos
-		lista.add("Manzana");
-		lista.add("Banana");
-		lista.add("Cereza");
+		//lista.add("A");
+		lista.add("B");
+		lista.add("C");
 
 		// Agregar elemento al principio y al final
-		lista.addFirst("Durazno");
-		lista.addLast("Uva");
+		lista.addFirst("A");
+		lista.addLast("D");
 
 		// Mostrar todos los elementos
 		System.out.println("Contenido de la lista:");
@@ -24,15 +24,15 @@ public class LinkedListExample {
 		}
 
 		// Obtener un elemento
-		String primera = lista.getFirst();
+		/*String primera = lista.getFirst();
 		String ultima = lista.getLast();
 		System.out.println("\nPrimera fruta: " + primera);
-		System.out.println("Última fruta: " + ultima);
+		System.out.println("Última fruta: " + ultima);*/
 
 		// Eliminar un elemento
-		lista.remove("Banana");
+		/*lista.remove("Banana");
 		System.out.println("\nLista después de eliminar 'Banana':");
-		System.out.println(lista);
+		System.out.println(lista);*/
 	}
 
 }

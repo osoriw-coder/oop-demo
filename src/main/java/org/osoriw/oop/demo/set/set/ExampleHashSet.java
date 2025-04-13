@@ -1,4 +1,4 @@
-package org.osoriw.oop.demo.set;
+package org.osoriw.oop.demo.set.set;
 
 import java.util.HashSet;
 
